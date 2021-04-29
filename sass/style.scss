@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+@import "./block/header";
+
+
+
+
+
+.therapy{
+    grid-area: 2/1/2/4;
+}
+
+.about{
+    grid-area: 3/1/3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height: 960px;
+}
+
+.about__wrapper{
+    grid-area: 1/1/1/5;
+}
