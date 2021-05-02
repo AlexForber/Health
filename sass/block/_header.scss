@@ -23,6 +23,7 @@
     &__list{
         display: flex;
         justify-content: space-around;
+        padding-top: 11px;
     }
 
     &__item{
@@ -33,6 +34,13 @@
             line-height: 16px;
 
             color: #22356F;
+
+            transition: all 1s ease 0s;
+
+            &:hover{
+                text-decoration: wavy;
+            }
+
         }
     }
 
@@ -55,6 +63,8 @@
         letter-spacing: -0.035em;
 
         color: #62D0DF;
+
+        margin-top: 187px;
     }
 
     &__title{
@@ -74,12 +84,28 @@
         max-width: 469px;
 
         color: #22356F;
+
+       
     }
 
     &__image{
         position: absolute;
         top: 0;
         right: 160px;
+    }
+
+    &__link{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+
+        color: #FAB63E;
+
+        margin-top: 73px;
+        margin-right: 68px;
+
+         
     }
 }
 
