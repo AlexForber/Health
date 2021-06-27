@@ -254,6 +254,27 @@ button {
   background: #8F00FF;
 }
 
+.diet {
+  height: 240px;
+  padding-left: 105px;
+}
+.diet__title {
+  font-family: Larsseit;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356F;
+}
+.diet__text {
+  width: 298px;
+  padding-top: 28px;
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
 .health:last-child {
   background: #22356F;
 }
