@@ -275,6 +275,42 @@ button {
   color: rgba(34, 53, 111, 0.5);
 }
 
+.statistics {
+  grid-area: 8/2/9/4;
+  padding: 105px 175px 42px 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.statistics__title {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #22356f;
+}
+.statistics__text {
+  font-family: Larsseit;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  color: #22356F;
+  font-weight: 600;
+}
+.statistics__btn {
+  align-self: flex-start;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  border: transparent;
+  background: transparent;
+  color: #fab63e;
+}
+
+.image-statistics {
+  width: 100%;
+}
+
 .health:last-child {
   background: #22356F;
 }
