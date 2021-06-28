@@ -311,6 +311,39 @@ button {
   width: 100%;
 }
 
+.contact {
+  grid-area: 9/1/10/3;
+  padding: 105px 200px 40px 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #22356F;
+}
+.contact__title {
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.contact__subtitle {
+  font-family: Larsseit;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.contact__text {
+  font-family: Larsseit;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+}
+.contact__img {
+  width: 100%;
+}
+
 .health:last-child {
   background: #22356F;
 }
