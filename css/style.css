@@ -334,6 +334,7 @@ button {
   color: #FFFFFF;
 }
 .contact__text {
+  width: 535px;
   font-family: Larsseit;
   font-size: 36px;
   line-height: 53px;
@@ -342,6 +343,36 @@ button {
 }
 .contact__img {
   width: 100%;
+}
+.contact__btn {
+  align-self: flex-start;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  border: transparent;
+  background: transparent;
+  color: #62D0DF;
+}
+
+.footer {
+  grid-area: 10/1/11/4;
+}
+.footer__top {
+  display: flex;
+}
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__bottom {
+  grid-area: 11/1/12/4;
+  background: #62D0DF;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  padding: 35px 185px;
+  min-height: 80px;
 }
 
 .health:last-child {

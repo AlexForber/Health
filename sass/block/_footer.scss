@@ -1,0 +1,23 @@
+.footer{
+    grid-area: 10/1/11/4;
+
+    &__top{
+        display: flex;
+    }
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &__bottom{
+        grid-area: 11/1/12/4;
+        background: #62D0DF;
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+        padding: 35px 185px;
+        min-height: 80px;
+    }
+}

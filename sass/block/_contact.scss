@@ -27,6 +27,8 @@
     }
 
     &__text{
+        width: 535px;
+
         font-family: Larsseit;
         font-size: 36px;
         line-height: 53px;
@@ -37,5 +39,15 @@
 
     &__img{
         width: 100%;
+    }
+
+    &__btn{
+        align-self: flex-start;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+        border: transparent;
+        background: transparent;
+        color: #62D0DF;
     }
 }
