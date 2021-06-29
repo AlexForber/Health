@@ -28,6 +28,10 @@ button{
     border: none;
 }
 
+address{
+    font-style: normal;
+}
+
 @import "./block/header";
 @import "./block/therapy";
 @import "./block/about";

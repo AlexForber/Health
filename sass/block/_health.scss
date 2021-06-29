@@ -3,6 +3,19 @@
 
 .health{
     min-height: 480px;
+    position: relative;
+
+    &::before{
+        content: "";
+        display: inline-block;
+        width: 70%;
+        height: 2px;
+        background: #fff;
+
+        position: absolute;
+        top: 25%;
+        left: 13%;
+    }
     
 
    
@@ -14,6 +27,18 @@
         color: #fff;
 
         padding: 130px 184px 0 105px;
+
+        &::before{
+            content:" ";
+            display: block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #e9b730;
+            position: relative;
+            bottom: -23px;
+            left: -15%;
+        }
 
         
     }

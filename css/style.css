@@ -27,6 +27,10 @@ button {
   border: none;
 }
 
+address {
+  font-style: normal;
+}
+
 .header {
   grid-area: 1/1/1/4;
   padding: 27px 274px 75px 139px;
@@ -225,6 +229,17 @@ button {
 
 .health {
   min-height: 480px;
+  position: relative;
+}
+.health::before {
+  content: "";
+  display: inline-block;
+  width: 70%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 25%;
+  left: 13%;
 }
 .health__title {
   font-size: 32px;
@@ -232,6 +247,17 @@ button {
   letter-spacing: -0.006em;
   color: #fff;
   padding: 130px 184px 0 105px;
+}
+.health__title::before {
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #e9b730;
+  position: relative;
+  bottom: -23px;
+  left: -15%;
 }
 
 .dark-blue {
@@ -359,10 +385,19 @@ button {
 }
 .footer__top {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__image {
+  width: 100%;
+}
+.footer__img {
+  width: 100%;
 }
 .footer__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 100px 40px 100px 70px;
 }
 .footer__bottom {
   grid-area: 11/1/12/4;
@@ -373,6 +408,34 @@ button {
   color: #FFFFFF;
   padding: 35px 185px;
   min-height: 80px;
+}
+.footer__block {
+  width: 240px;
+  padding-right: 60px;
+}
+.footer__title {
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #22356F;
+}
+.footer__text {
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  margin-top: 54px;
+  color: rgba(34, 53, 111, 0.5);
+}
+.footer__link {
+  display: block;
+  margin-top: 25px;
+  color: rgba(34, 53, 111, 0.5);
+  font-style: normal;
+}
+.footer__modification {
+  color: #62D0DF;
 }
 
 .health:last-child {
